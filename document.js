@@ -1,6 +1,6 @@
 var topLevel = typeof global !== 'undefined' ? global :
     typeof window !== 'undefined' ? window : {}
-var minDoc = require('min-document');
+var minDoc = require('./min-document');
 
 var doccy;
 

@@ -1,5 +1,5 @@
 {
-  "name": "global",
+  "name": "@fork/global",
   "version": "4.4.0",
   "description": "Require global variables",
   "keywords": [],
@@ -21,7 +21,6 @@
     "individual": false
   },
   "dependencies": {
-    "min-document": "^2.19.0",
     "process": "^0.11.10"
   },
   "devDependencies": {
