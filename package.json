@@ -1,5 +1,5 @@
 {
-  "name": "@fork/global",
+  "name": "@videojs/global-compat",
   "version": "4.4.0",
   "description": "Require global variables",
   "keywords": [],
