@@ -1,30 +1,24 @@
-# global
+# videojs-global-compat
 
-<!-- [![build status][1]][2]
+Require global variables with improved compatibility for Video.js
 
-[![browser support][3]][4] -->
-
-Require global variables
-
-## Example
-
-```js
-var global = require("global")
-var document = require("global/document")
-var window = require("global/window")
-```
+This is a **fork of [global](https://www.npmjs.com/package/global)** with an internal copy of [min-document](https://www.npmjs.com/package/min-document) to improve compatibility with Video.js and enhance security.
 
 ## Installation
 
-`npm install global`
+```bash
+  npm install videojs-global-compat
+```
+
+## Usage
+
+```js
+var global = require('videojs-global-compat')
+var document = require('videojs-global-compat/document')
+var window = require('videojs-global-compat/window')
+```
 
 ## Contributors
 
- - Raynos
+	•	Ronald Urbina (@ronalduQualabs)
 
-## MIT Licenced
-
-  [1]: https://secure.travis-ci.org/Colingo/global.png
-  [2]: http://travis-ci.org/Colingo/global
-  [3]: http://ci.testling.com/Colingo/global.png
-  [4]: http://ci.testling.com/Colingo/global

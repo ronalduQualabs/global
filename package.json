@@ -1,6 +1,6 @@
 {
-  "name": "@videojs/global-compat",
-  "version": "1.0.0",
+  "name": "videojs-global-compat",
+  "version": "1.0.1",
   "description": "A fork of global with an internal copy of min-document to improve compatibility with video.js improving security.",
   "keywords": [],
   "author": "ronalduQualabs <ronaldu@qualabs.com>",
