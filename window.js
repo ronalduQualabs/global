@@ -1,3 +1,4 @@
+/** @type {Window} */
 var win;
 
 if (typeof window !== "undefined") {
